@@ -20,6 +20,12 @@ body {
 }
 
 .name {
+  font-size: 98px;
+}
+
+.name,
+.title,
+.project_title {
   font-family: "Playfair Display", serif !important;
 }
 
@@ -30,6 +36,26 @@ body {
 }
 
 .contact:hover {
-  background-color: var(--secondary-color);
+  /* background-color: var(--secondary-color);
+  color: var(--primary-color); */
+  color: #000;
+}
+
+.launch {
+  border: 1px solid var(--primary-color) !important;
   color: var(--primary-color);
+}
+
+.launch:hover {
+  color: #000;
+}
+
+@media screen and (max-width: 580px) {
+  .name {
+    font-size: 75px;
+  }
+
+  .project_img{
+    display: none;
+  }
 }
