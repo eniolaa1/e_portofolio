@@ -19,6 +19,14 @@ body {
   background-color: var(--secondary-color);
 }
 
+.nav-link {
+  color: #222 !important;
+}
+
+.nav-link:hover {
+  color: var(--primary-color) !important;
+}
+
 .name {
   font-size: 98px;
 }
@@ -55,7 +63,7 @@ body {
     font-size: 75px;
   }
 
-  .project_img{
+  .project_img {
     display: none;
   }
 }
