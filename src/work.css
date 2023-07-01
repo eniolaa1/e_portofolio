@@ -15,6 +15,14 @@ body {
   font-family: "Poppins", sans-serif !important;
 }
 
-.head_text{
-    font-family: "Playfair Display", serif !important;
+.nav-link {
+  color: #222 !important;
+}
+
+.nav-link:hover {
+  color: var(--primary-color) !important;
+}
+
+.head_text {
+  font-family: "Playfair Display", serif !important;
 }

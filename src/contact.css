@@ -15,10 +15,30 @@ body {
   font-family: "Poppins", sans-serif !important;
 }
 
+.nav-link {
+  color: #222 !important;
+}
+
+.nav-link:hover {
+  color: var(--primary-color) !important;
+}
+
 .head_text {
   font-family: "Playfair Display", serif !important;
 }
 
 .contact_links {
   color: var(--primary-color);
+}
+
+.contact_btn {
+  background-color: var(--primary-color) !important;
+  color: var(--secondary-color) !important;
+  box-shadow: var(--box-shadow) !important;
+}
+
+.contact_btn:hover {
+  /* background-color: var(--secondary-color);
+  color: var(--primary-color); */
+  color: #000 !important;
 }
