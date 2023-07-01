@@ -33,7 +33,8 @@ body {
 
 .name,
 .title,
-.project_title {
+.project_title,
+.inquiry {
   font-family: "Playfair Display", serif !important;
 }
 
@@ -56,6 +57,34 @@ body {
 
 .launch:hover {
   color: #000;
+}
+
+.contact-box {
+  background-color: var(--secondary-color);
+}
+
+.email-link,
+.source {
+  color: var(--primary-color);
+}
+
+.email-link:hover {
+  color: #000;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--primary-color);
 }
 
 @media screen and (max-width: 580px) {
