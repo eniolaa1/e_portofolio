@@ -15,6 +15,10 @@ body {
   font-family: "Poppins", sans-serif !important;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .nav-link {
   color: #222 !important;
 }
